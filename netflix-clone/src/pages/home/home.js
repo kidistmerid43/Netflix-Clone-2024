@@ -1,14 +1,15 @@
 import React from 'react';
-import header from '../../componenets/header/header';
-import footer from '../../componenets/footer/footer';
+// import header from '../../componenets/header/header';
+// import footer from '../../componenets/footer/footer';
 
-const home = () => {
+const Home = () => {
   return (
-    <>
-   <header />
-   <footer />
-    </>
-  )
+		<>
+			<header />
+			<Banner />
+			<footer />
+		</>
+	);
 }
 
-export default home
+export default Home
